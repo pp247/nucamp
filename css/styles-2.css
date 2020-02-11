@@ -1,0 +1,55 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Just Another Hand", cursive;
+    text-transform: uppercase;
+}
+.h3, h3 {
+    font-size: 1.30rem;
+}
+h2 {
+    color: #3046C5;
+}
+a{ border: 0; text-decoration: none;}
+header h2 {
+    color: #CEC8FF;
+}
+
+footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar{
+    background-color:#901CAD;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel,.carousel-inner {
+   max-height: 350px;
+    overflow: hidden;
+}
+.carousel img{
+    width: 100%;
+}
+.carousel-caption {
+    top: 100px;
+    max-height: 130px;
+    overflow: hidden;
+    padding: 30px;
+  }
+
+#logo{
+ height: 55px;
+}
