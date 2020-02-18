@@ -42,3 +42,9 @@ footer {
 .carousel {
     border: solid #5637DD;
 }
+#carouselButton {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
