@@ -1,0 +1,119 @@
+
+$color-bg-gray:#F0F0F0;
+$color-primary: #000;
+$color-secondary: #666;
+$color-transparent-black: rgba(0, 0, 0, 0.5);
+$theme-colors: (
+  "primary":$color-primary,
+  "secondary": $color-secondary
+);
+@import "node_modules/bootstrap/scss/bootstrap";
+
+$sans-font: "Open Sans", sans-serif;
+$cursive-font: "Lora", cursive;
+*,a,.btn-link, button{    
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: $sans-font;
+    color: $color-primary;
+    -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; -o-transition: all 0.3s linear; transition: all 0.3s linear; 
+}
+a:hover,.btn-link:hover, button:hover{
+    color:$color-secondary;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+body {
+    min-width: 385px;
+}
+
+h1, h2, h3 {
+    font-family: $cursive-font;
+}
+
+header,footer {
+    background-color: white;
+    
+}
+header .container-fluid,footer .container-fluid {
+    background-color: $color-bg-gray;
+}
+header{
+    #logo{
+        display: block;
+        max-width: 90%;
+    }
+
+    #Logo img{
+        max-height:40px;
+    }
+    #Logo.small img{
+        max-height:30px;
+    }
+    .navbar{
+        padding: 0;
+        margin: 0;
+    }
+    .navbar-toggler{
+        position: absolute;
+        top: -35px;
+        border: none;
+    }
+    .nav-link{
+        padding-top: 15px !important; 
+        padding-left:15px !important;
+        padding-bottom: 0 !important;
+        padding-right: 15px !important;
+        line-height: 1;
+    }
+
+}
+
+.carousel img{
+    width: 100%;
+}
+.carousel-caption {
+    bottom: 20%;
+    top:20%;
+    h3{
+        font-size: 4vw;
+        color: white;
+    }
+}
+#carouselButton {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.row-content {
+    padding: 50px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+.row-content.last{
+    border: none;
+
+}
+
+#loginModal{
+    .modal-header{
+        background-color: $color-bg-gray;
+
+    }
+
+}
+.input-group-text{
+    min-width: 150px;
+    text-align: right;
+    float: right;
+    display: block;
+}
+.input-group-text:not(.bg-light),.form-control:disabled, .form-control[readonly] {
+    color: $color-primary !important;
+    background-color: $color-bg-gray !important;
+}
+.products .img{width: 100%;}

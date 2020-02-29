@@ -1,0 +1,57 @@
+.header {
+  text-align: center;
+  padding: 32px; }
+
+.row {
+  display: -ms-flexbox;
+  /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px; }
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%;
+  /* IE 10 */
+  flex: 50%;
+  padding: 0 4px; }
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle; }
+
+/* Style the buttons */
+#btnContainer .btn {
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  background-color: #F0F0F0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1; }
+
+#btnContainer .btn:hover {
+  background-color: #ddd; }
+
+#btnContainer .btn.active {
+  background-color: #666;
+  color: white; }
+
+#productModal .modal-dialog {
+  max-width: 40vw;
+  top: 0; }
+
+#productModal .modal-body img {
+  max-height: 90vh; }
+
+#productModal .modal-content {
+  background-color: transparent;
+  border: none; }
+
+#productModal button {
+  color: white;
+  right: -50px;
+  top: -10px;
+  position: absolute; }
